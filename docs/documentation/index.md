@@ -4,5 +4,4 @@ This section contains the user stories and functional requirements for the MStar
 
 ## Contents
 
-- **[User Stories](user-stories/index.md):** Detailed user stories covering various aspects of the application.
-- **[Functional Requirements](functional-requirements/index.md):** Functional specifications needed to implement the features described in the user stories.
+- **[User Stories](user-stories/account-creation.md):** Detailed user stories covering various aspects of the application.
