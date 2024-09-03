@@ -1,0 +1,37 @@
+site_name: MStar EGov Wiki
+# site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.path
+plugins:
+  - social
+  - search
+nav:
+  - Home: index.md
+  - Documentation:
+      - Overview: documentation/index.md
+      - User Stories:
+          - Account Creation: documentation/user-stories/account-creation.md
+          - Application Form: documentation/user-stories/dashboard.md
+  - Developer Portal:
+      - Overview: developer-portal/index.md
+      - Setup:
+          - Project Setup: developer-portal/setup/project-setup.md
+          - Environment Setup: developer-portal/setup/environment-setup.md
+          - Deployment Guide: developer-portal/setup/deployment-guide.md
+      - Coding Standards:
+          - Coding Guidelines: developer-portal/coding-standards/coding-guidelines.md
+          - Linting and Formatting: developer-portal/coding-standards/linting-and-formatting.md
+          - Naming Conventions: developer-portal/coding-standards/naming-conventions.md
+      - Architecture:
+          - Microservices Architecture: developer-portal/architecture/microservices-architecture.md
+          - Database Structure: developer-portal/architecture/database-structure.md
+          - Third-Party Integrations: developer-portal/architecture/third-party-integrations.md
+      - DevOps:
+          - CI/CD Pipeline: developer-portal/devops/ci-cd-pipeline.md
+          - Monitoring and Logging: developer-portal/devops/monitoring-and-logging.md
+          - Security Practices: developer-portal/devops/security-practices.md
